@@ -1,0 +1,8 @@
+# your webiste
+public
+
+# nonsense
+.DS_Store
+Thumbs.db
+*.log
+*.err
