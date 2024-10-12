@@ -1,8 +1,8 @@
-# Lame Static Site Generator
+# Lazy Static Site Generator
 
 ## Quick and easy SSG
 
-Takes a couple of commands to get started.
+Couple commands to get started.
 
 ## Installation
 
