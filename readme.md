@@ -9,18 +9,13 @@ Couple commands to get started.
 ```shell
 git clone "https://github.com/imshvc/lazy-ssg" --depth 1
 cd lazy-ssg
-php build.php
+make
 ```
 
 This builds the website to the `public` folder.
 
 ## Hosting
 
-PHP comes bundled with a built-in server, you can run:
+PHP comes bundled with a built-in server, run the `run` script to start it.
 
-```shell
-cd public
-php -S 127.0.0.1:4444
-```
-
-Now access the local server: [http://127.0.0.1:4444/](http://127.0.0.1:4444/)
+Access the local server: [http://127.0.0.1:4444/](http://127.0.0.1:4444/)
