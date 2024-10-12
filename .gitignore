@@ -1,5 +1,7 @@
 # your website
 public
+public/
+public/.gitkeep
 
 # nonsense
 .DS_Store
