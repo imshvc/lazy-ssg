@@ -1,6 +1,11 @@
 <?php
 
- // constants
+// Authors: Nurudin Imsirovic <realnurudinimsirovic@gmail.com>
+// Defines: PHP script for generating pages from a template
+// Created: 2024-10-12 06:24 PM
+// Updated: 2024-10-12 10:45 PM
+
+// constants
 define('CWD', __DIR__);
 define('DS', DIRECTORY_SEPARATOR);
 define('ROOT_DIR', CWD . DS);
@@ -8,7 +13,7 @@ define('PUBLIC_DIR', ROOT_DIR . 'public' . DS);
 define('PAGES_DIR', ROOT_DIR . 'pages' . DS);
 define('TEMPLATE_FILE', ROOT_DIR . 'template.html');
 
-echo "Script: Lame Static Site Generator\n";
+echo "Script: Lazy Static Site Generator\n";
 echo "Current working directory: " . CWD . "\n";
 echo "Public directory: " . PUBLIC_DIR . "\n";
 echo "Pages directory: " . PAGES_DIR . "\n";
@@ -63,7 +68,7 @@ foreach ($pages as $file) {
 
   echo "\n";
 
-  file_put_contents(PUBLIC_DIR . $page_file, $html); 
+  file_put_contents(PUBLIC_DIR . $page_file, $html);
 }
 
 echo "Build finished\n";

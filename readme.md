@@ -7,8 +7,8 @@ Couple commands to get started.
 ## Installation
 
 ```shell
-git clone "https://github.com/imshvc/lame-ssg" --depth 1
-cd lame-ssg
+git clone "https://github.com/imshvc/lazy-ssg" --depth 1
+cd lazy-ssg
 php build.php
 ```
 
